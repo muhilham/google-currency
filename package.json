@@ -6,7 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/muhilham/google-currency"
+  },
+  "keywords": [
+    "google",
+    "finance",
+    "currency",
+    "converter",
+    "scrape",
+    "scraper",
+    "screen"
+  ],
   "author": "Muhammad Ilham",
   "license": "ISC",
   "dependencies": {
