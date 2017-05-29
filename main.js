@@ -25,7 +25,7 @@ function converter(options) {
             to: toResult,
             amount: amountResult,
             converted: parseFloat(converted),
-            url: source + response.req.path
+            url: response.req.url
           })
         } else {
           reject(error);
