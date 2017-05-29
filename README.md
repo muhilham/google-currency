@@ -22,11 +22,11 @@ This prints out the value from USD to IDR.
 const converter = require('google-currency')
 
 const options = {
-  from: USD,
-  to: IDR,
+  from: "USD",
+  to: "IDR",
   amount: 1
 }
 converter(options).then(value => {
-  console.log(value) // Return object 
+  console.log(value) // Return object
 })
 ```
