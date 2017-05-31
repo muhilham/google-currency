@@ -23,7 +23,7 @@ function converter(options) {
           resolve({
             from: fromResult,
             to: toResult,
-            amount: amountResult,
+            amount: parseFloat(amountResult),
             converted: parseFloat(converted),
             url: response.req.url
           })
