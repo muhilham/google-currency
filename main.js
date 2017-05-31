@@ -24,7 +24,7 @@ function converter(options) {
             from: fromResult,
             to: toResult,
             amount: parseFloat(amountResult),
-            converted: parseFloat(converted),
+            converted: parseFloat(converted) || parseFloat(amountResult),
             url: response.req.url
           })
         } else {
