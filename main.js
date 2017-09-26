@@ -3,7 +3,7 @@ const request = require('superagent');
 
 function converter(options) {
   return new Promise(function(resolve, reject) {
-    const source = 'https://www.google.com/finance/converter'
+    const source = 'https://finance.google.com/finance/converter'
     const queryString = {
       a: options.amount,
       from: options.from,
